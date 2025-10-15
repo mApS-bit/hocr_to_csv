@@ -1,0 +1,79 @@
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+*.env
+
+# Archivos de dependencias compiladas
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Directorios de build y distribución
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Configuración local
+.idea/
+.vscode/
+*.code-workspace
+
+# Archivos temporales de Python
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+# Evita que se suban salidas o grandes resultados generados
+*.nbconvert/
+*.nbconvert.ipynb
+
+# Datos intermedios o de pruebas
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+
+# Archivos de cache de herramientas
+.mypy_cache/
+.pytest_cache/
+.cache/
+__pypackages__/
+
+# Configuración de cobertura y tests
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Configuración de Docker (si la usas)
+*.pid
+*.log
+*.db
+
+# Archivos de configuración locales
+*.env.local
+.envrc
+secrets.json
+config.yaml
+config.yml
+
+# Archivos ocultos del sistema
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
